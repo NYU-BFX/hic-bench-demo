@@ -15,7 +15,7 @@ cd
 git clone https://github.com/NYU-BFX/hic-bench.git
 ```
 
-If you're working on the phoenix server at NYU, make sure you have your `data` directory linked to Aris's.
+If you're working on the phoenix server at NYU, make sure you have your `data` directory linked to Aris's. This contains the reference data needed for the pipeline.
 
 ```
 cd hic-bench
