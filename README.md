@@ -71,6 +71,8 @@ cd inputs/
 
 Manually open the `inputs/sample-sheet.tsv` file (e.g. in Excel, etc.) and match up the Input samples with the experimental samples. Refer to the [samplesheet](https://github.com/NYU-BFX/hic-bench-demo/tree/master/example_samplesheet) provided with this repository for an example of what it should look like. 
 
+Clean up the sample sheet.
+
 ```sh
 mac2unix sample-sheet.tsv
 sed -i 's/"//g' sample-sheet.tsv
